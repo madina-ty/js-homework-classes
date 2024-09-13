@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Выбор машины</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="main.css">
+    <style>
+
+    </style>
+</head>
+<body>
+    <h1>Выберите тип машины:</h1>
+
+    <div id="car-selection">
+        <label>
+            <input type="radio" name="car-type" value="car"> Легковые
+        </label>
+        <label>
+            <input type="radio" name="car-type" value="truck"> Грузовые
+        </label>
+        <label>
+            <input type="radio" name="car-type" value="moto"> Мото
+        </label><br>
+        <button id="next-button">Далее</button>
+    </div>
+
+    <div id="car-form" class="form-section">
+        <h2>Форма для заполнения:</h2>
+        <div id="form-content"></div>
+        <button id="submit-button">Отправить</button>
+    </div>
+
+    <div id="result"></div>
+
+
+</body>
+</html>
